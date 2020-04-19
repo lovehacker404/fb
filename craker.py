@@ -352,7 +352,7 @@ def scaning1():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-	elif peak =="0":
+	def peak =="0":
 		menu()
 	else:
 		print "\x1b[1;91mFill in correctly"
