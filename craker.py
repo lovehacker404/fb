@@ -67,7 +67,7 @@ while (loop == 'true'):
         os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
         
         def login():
-	os.system('clear')
+		os.system('clear')
 	try:
 		toket = open('login.txt','r')
 		menu() 
