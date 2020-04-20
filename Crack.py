@@ -721,6 +721,7 @@ def pilih_super():
               \033[1;91m +923094161457"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
+	os.system('clear')
 	menu()
 	def main(arg):
 		global oks
@@ -978,6 +979,7 @@ def pilih_super():
               \033[1;91m +923094161457"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
+	os.system('clear')
 	menu()
 	def main(arg):
 		global oks
@@ -1235,6 +1237,7 @@ def pilih_super():
               \033[1;91m +923094161457"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
+	os.system('clear')
 	menu()
 	def main(arg):
 		global oks
@@ -1492,6 +1495,7 @@ def pilih_super():
               \033[1;91m +923094161457"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
+	os.system('clear')
 	menu()
 	def main(arg):
 		global oks
@@ -1749,6 +1753,7 @@ def pilih_super():
               \033[1;91m +923094161457"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
+	os.system('clear')
 	menu()
 
 if __name__ == '__main__':
