@@ -22,7 +22,7 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 #-Keluar-#
 def keluar():
 	 print "\033[1;91m[!] Exit"
-	os.sys.exit()
+		os.sys.exit()
 	
 #-Warna-#
 def acak(x):
