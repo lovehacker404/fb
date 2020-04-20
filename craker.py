@@ -92,6 +92,43 @@ listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
+
+#####Password#####
+
+CorrectUsername = "Dragon"
+CorrectPassword = "lovehacker"
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;91m📋 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;91m🗝 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username #Dev:love_hacker
+	    time.sleep(2)
+            loop = 'false'
+        else:
+            print "\033[1;91mWrong Password"
+            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+    else:
+        print "\033[1;91mWrong Username"
+        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+
+def login():
+	os.system('clear')
+	try:
+		toket = open('login.txt','r')
+		menu() 
+	except (KeyError,IOError):
+		os.system('clear')
+		print logo
+		jalan(' \033[1;91mWarning: \033[1;95mDo Not Use Your Personal Account' )
+		jalan(' \033[1;91mWarning: \033[1;95mUse a New Account To Login' )
+		jalan(' \033[1;91mWarning: \033[1;95mTermux  All version Work✅' )                 
+		print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print('	   \033[1;91m▬\x1b[1;95m.........LOGIN WITH FACEBOOK........\x1b[1;91m▬' )
+		print('	' )
+		
 ##### LICENSE #####
 #=================#
 def lisensi():
@@ -200,42 +237,6 @@ def tokenz():
 			login()
 		else:
 			keluar()
-#####Password#####
-
-CorrectUsername = "Dragon"
-CorrectPassword = "lovehacker"
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;91m📋 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;91m🗝 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
-	    time.sleep(2)
-            loop = 'false'
-        else:
-            print "\033[1;91mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-    else:
-        print "\033[1;91mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-
-def login():
-	os.system('clear')
-	try:
-		toket = open('login.txt','r')
-		menu() 
-	except (KeyError,IOError):
-		os.system('clear')
-		print logo
-		jalan(' \033[1;91mWarning: \033[1;95mDo Not Use Your Personal Account' )
-		jalan(' \033[1;91mWarning: \033[1;95mUse a New Account To Login' )
-		jalan(' \033[1;91mWarning: \033[1;95mTermux  All version Work✅' )                 
-		print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-		print('	   \033[1;91m▬\x1b[1;95m.........LOGIN WITH FACEBOOK........\x1b[1;91m▬' )
-		print('	' )
-		
 ##### MENU ##########################################
 def menu():
 	os.system('reset')
