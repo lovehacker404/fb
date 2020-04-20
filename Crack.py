@@ -218,6 +218,34 @@ while (loop == 'true'):
     else:
         print "\033[1;91mWrong Username"
         os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+        
+##### LICENSE #####
+#=================#
+def lisensi():
+	os.system('reset')
+	masuk()
+
+##### Pilih Login #####
+def masuk():
+	os.system('reset')
+	print logo
+	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;96m Login"
+	print "\033[1;92m║--\033[1;91m> \033[1;95m2.\033[1;96m Login using token"
+	print "\033[1;93m║--\033[1;91m> \033[1;95m0.\033[1;96m Exit"
+	print "\033[1;95m║"
+	msuk = raw_input("\033[1;96m╚═\033[1;1mD \033[1;93m")
+	if msuk =="":
+		print"\033[1;91m[!] Wrong input"
+		keluar()
+	elif msuk =="1":
+		login()
+	elif msuk =="2":
+		token()
+	elif msuk =="0":
+		keluar()
+	else:
+		print"\033[1;91m[!] Wrong input"
+		keluar()
 
 def login():
 	os.system('clear')
@@ -311,7 +339,7 @@ def menu():
 	print "	   \033[1;91m ID\033[1;91m:\033[1;91m"+id+"\x1b[1;95m              "
 	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;95mBlackMafia\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 	print "\033[1;91m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;95mStart Cloning..."
-	print "\033[1;91m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;95mToken."
+	print "\033[1;91m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;95mShow Token."
 	print "\033[1;91m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mlogout            "
 	pilih()
 
@@ -323,8 +351,13 @@ def pilih():
 		pilih()
 	elif unikers =="1":
 		super()
-	elif unikers =="2":
-		token ()
+		elif unikers =="2":
+		os.system('reset')
+		print logo
+		toket=open('login.txt','r').read()
+		print "\033[1;91m[+] \033[1;92mYour token\033[1;91m :\033[1;97m "+toket
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu()
 	elif unikers =="0":
 		jalan('Token Removed')
 		os.system('rm -rf login.txt')
