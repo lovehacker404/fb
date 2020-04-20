@@ -354,7 +354,7 @@ def scaning1():
 			id.append(i['id'])
 			raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 			menu()
-			else:
+	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	
@@ -649,7 +649,7 @@ def scaning2():
 			id.append(i['id'])
 			raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 			menu()
-			else:
+	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	
@@ -944,7 +944,7 @@ def scaning2():
 			id.append(i['id'])
 			raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 			menu()
-			else:
+	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	
@@ -1239,7 +1239,7 @@ def scaning2():
 			id.append(i['id'])
 			raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 			menu()
-			else:
+	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	
@@ -1534,7 +1534,7 @@ def scaning2():
 			id.append(i['id'])
 			raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 			menu()
-			else:
+	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	
