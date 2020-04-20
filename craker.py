@@ -295,12 +295,12 @@ def scaning1():
 		login()
 	os.system('reset')
 	print logo
-		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
-		print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-		try:
-			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
-			op = json.loads(jok.text)
-			print"\033[1;91mName\033[1;95m:\033[1;95m "+op["name"]
+	idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
+	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	try:
+		jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+		op = json.loads(jok.text)
+		print"\033[1;91mName\033[1;95m:\033[1;95m "+op["name"]
 		except KeyError:
 			print"\x1b[1;91mID Not Found!"
 			raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
