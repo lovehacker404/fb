@@ -286,7 +286,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;91mThere is no internet connection"
 		keluar()
-	os.system("clear") 
+		os.system("clear") 
 		print logo
 		print('\033[1;96m[☆] \033[1;92mLOGIN AKUN FACEBOOK \033[1;91m[☆]')
 		id = raw_input('\033[1;91m[+] \033[1;36mID\033[1;97m|\033[1;96mEmail\033[1;97m \033[1;91m:\033[1;92m ')
