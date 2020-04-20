@@ -240,13 +240,13 @@ def login():
 		print('	   \033[1;91m▬\x1b[1;95m.........LOGIN WITH FACEBOOK........\x1b[1;91m▬' )
 		print('	' )
 		def love():
-	os.system('reset')
-	print logo
-	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;96m Login"
-	print "\033[1;92m║--\033[1;91m> \033[1;95m2.\033[1;96m Login using token"
-	print "\033[1;93m║--\033[1;91m> \033[1;95m0.\033[1;96m Exit"
-	print "\033[1;95m║"
-	slect = raw_input("\033[1;96m╚═\033[1;1mD \033[1;93m")
+			os.system('reset')
+			print logo
+			print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;96m Login"
+			print "\033[1;92m║--\033[1;91m> \033[1;95m2.\033[1;96m Login using token"
+			print "\033[1;93m║--\033[1;91m> \033[1;95m0.\033[1;96m Exit"
+			print "\033[1;95m║"
+			slect = raw_input("\033[1;96m╚═\033[1;1mD \033[1;93m")
 	if slect =="":
 		print"\033[1;91m[!] Wrong input"
 		keluar()
