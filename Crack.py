@@ -376,7 +376,7 @@ def pilih_super():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-			elif peak =="3":
+	elif peak =="3":
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
@@ -394,7 +394,7 @@ def pilih_super():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-			elif peak =="4":
+	elif peak =="4":
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
@@ -412,7 +412,7 @@ def pilih_super():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-			elif peak =="5":
+	elif peak =="5":
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
@@ -430,7 +430,7 @@ def pilih_super():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-			elif peak =="5":
+	elif peak =="5":
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
