@@ -301,10 +301,10 @@ def scaning1():
 		jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 		op = json.loads(jok.text)
 		print"\033[1;91mName\033[1;95m:\033[1;95m "+op["name"]
-		except KeyError:
-			print"\x1b[1;91mID Not Found!"
-			raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
-			super()
+	except KeyError:
+		print"\x1b[1;91mID Not Found!"
+		raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
+		super()
 		print"\033[1;91mGetting IDs\033[1;97m..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
