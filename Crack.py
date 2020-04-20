@@ -247,14 +247,14 @@ def login():
 			print "\033[1;93m║--\033[1;91m> \033[1;95m0.\033[1;96m Exit"
 			print "\033[1;95m║"
 			slect = raw_input("\033[1;96m╚═\033[1;1mD \033[1;93m")
-	if slect =="":
+	if msuk =="":
 		print"\033[1;91m[!] Wrong input"
 		keluar()
-	elif slect =="1":
+	elif msuk =="1":
 		login()
-	elif slect =="2":
+	elif msuk =="2":
 		token()
-	elif slect =="0":
+	elif msuk =="0":
 		keluar()
 	else:
 		print"\033[1;91m[!] Wrong input"
