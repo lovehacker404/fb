@@ -289,7 +289,7 @@ def scaning1():
 	try:
 		toket=open('login.txt','r').read()
 	except IOError:
-		print"\033[1;91m[!] Token not found"
+		print"\x1b[1;94mToken invalid"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
