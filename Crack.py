@@ -351,7 +351,7 @@ def pilih():
 		pilih()
 	elif unikers =="1":
 		super()
-		elif unikers =="2":
+	elif unikers =="2":
 		os.system('reset')
 		print logo
 		toket=open('login.txt','r').read()
