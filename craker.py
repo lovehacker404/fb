@@ -354,7 +354,10 @@ def scaning1():
 			id.append(i['id'])
 			raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 			menu()
-	
+	else:
+		print"\033[1;91m[!] Wrong input"
+		keluar()
+			
 	print "\033[1;95mTotal IDs\033[1;91m: \033[1;95m"+str(len(id))
 	jalan('\033[1;91mPlease Wait\033[1;94m...')
 	titik = ['.   ','..  ','... ']
