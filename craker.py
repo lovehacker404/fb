@@ -303,7 +303,7 @@ def menu():
 #-
 def pilih():
 	zedd = raw_input("\033[1;97m■\033[1;91mSlect Option \033[1;97m")
-	if zedd =="":
+	if peak =="":
 		print "\033[1;91m[!] Wrong input"
 		pilih()
 	elif peak =="1":
@@ -355,8 +355,8 @@ def scaning1():
 			raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 			menu()
 	else:
-		print"\033[1;91m[!] Wrong input"
-		keluar()
+		print "\033[1;91m[!] Wrong input"
+		pilih()
 			
 	print "\033[1;95mTotal IDs\033[1;91m: \033[1;95m"+str(len(id))
 	jalan('\033[1;91mPlease Wait\033[1;94m...')
