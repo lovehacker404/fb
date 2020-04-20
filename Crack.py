@@ -261,7 +261,7 @@ def login():
 		keluar()
 
 		def login():
-	os.system('reset')
+			os.system('reset')
 	try:
 		toket = open('login.txt','r')
 		menu() 
