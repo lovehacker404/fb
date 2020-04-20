@@ -310,8 +310,6 @@ def scaning1():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-			elif zedd =="0":
-				keluar_zedd()
 	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
